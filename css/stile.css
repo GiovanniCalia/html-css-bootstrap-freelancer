@@ -2,13 +2,9 @@
 
 /* MISURE INFERIORI A 575PX */
 
-[class*="col-"]{
-   /* padding: 1rem;*/
-}
 
 .head1{
     background-color: rgb(44, 63, 79);
-
 }
 
 .header1{
@@ -19,6 +15,7 @@
     padding: 1rem;
     display: none;
 }
+
 .head1 .col-6, .head1 .col-1{
     padding: 1rem;
 }
@@ -36,7 +33,6 @@
 }
 
 /* MAIN SECTION */
-
 
 .first-sctn-main{
     background-color: rgb(24, 188, 155);
@@ -107,6 +103,10 @@
     margin-bottom: 2rem;
 }
 
+.flex-container{
+    width: 100%;
+}
+
 .thi-sec .col-6{
     padding: 8rem;
     background-color: green;
@@ -142,7 +142,7 @@
     padding: 1rem;
 }
 
-.row-lorem3 .col-7{
+.row-lorem3 .col-7, .row-lorem3-2 .col-7{
   padding: 1rem;
   color: white;
   background-color: blue;
@@ -205,7 +205,7 @@
     padding-bottom: 2rem;
 }
 
-.row-last .col-7, .row.row-last .col-5, .row-last .col-9{
+.row-last .col-8, .row.row-last .col-6, .row-last .col-9{
     background-color: goldenrod;
     margin-bottom: 1rem;
     padding: 2rem;
@@ -224,7 +224,9 @@
     padding: 1rem;
 }
 
+/* MEDIA QUERY ZONE*/
 
+/* VERSIONE TABLET */
 
 @media screen and (min-width: 576px) and (max-width: 991px){
 
@@ -236,11 +238,46 @@
         display: block;
     }
 
-    .sct-thi-main{
-        max-width: 400px;
+    .con-main{
+        width: 80%;
+        margin: auto;
     }
 
+    .sct-thi-main{
+        width: 40%;
+    }
 
-  
-   
+    .thi-sec .col-6{
+        padding: 5rem;
+    }
+
+    .flex-container{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+
+    .row-lorem3 .col:last-child, .row-lorem3-2 .col:first-child{
+        display: none;
+    }
+
+    .flex-lorem, .last-main1{
+        display: flex;
+    }
+
+    .last-main1{
+        display: flex;
+    }
+
+    .row-last{
+        flex-grow: 1;
+    }
+
 }
+
+/* VERSIONE DESKTOP */
+
+@media  screen and (min-width: 991px) {
+    
+}
+
