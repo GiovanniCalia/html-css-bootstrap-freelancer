@@ -1,3 +1,42 @@
-.row{
-    background-color: red;
+/* HEADER SECTION */
+
+.head1{
+    background-color: rgb(44, 63, 79);
+}
+
+.header1{
+    justify-content: space-between;
+}
+.head1 .col-6, .head1 .col-1{
+    padding: 1rem;
+}
+
+.head1 .col-6{
+    text-transform: uppercase;
+    color: white;
+}
+
+.rettangolo_header{
+    width: 25px;
+    height: 20px;
+    border: 1px solid white;
+}
+
+/* MAIN SECTION */
+
+
+.first_sctn{
+    background-color: rgb(24, 188, 155);
+    text-transform: uppercase;
+}
+
+.first_sctn .col-6{
+    background-color: green;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+
+.center1 .col-8{
+    background-color: white;
+    padding: 1rem;
 }
