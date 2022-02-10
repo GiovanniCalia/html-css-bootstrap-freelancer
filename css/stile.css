@@ -11,6 +11,7 @@
 .header1{
     justify-content: space-between;
 }
+
 .head1 .col-6, .head1 .col-1{
     padding: 1rem;
 }
@@ -106,6 +107,8 @@
     background-color: rgb(24, 188, 155);
     padding-top: 2rem;
     padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .row-lorem .col-2, .row-lorem4 .col-3{
@@ -135,7 +138,59 @@
     margin-top: 1rem;
 }
 
+/* CONTACT SECTION */
 
+
+
+.row-contact .col-4{
+    background-color: green;
+}
+
+.row-contact2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-contact2 .col-1:nth-child(odd){
+    background-color: black;
+}
+
+.row-contact2 .col-1:nth-child(even){
+    background-color: gold;
+}
+
+.row-contact3{
+    margin-bottom: 0.5rem;
+}
+
+.row-contact3 .col-6{
+    background-color: blue;
+    padding: 1.5rem;
+}
+
+.row-contact4 .col-6{
+    background-color: blueviolet;
+    margin-bottom: 0.5rem;
+}
+
+.row-contact5 .col-2{
+    background-color: bisque;
+}
+
+/* LAST SECTION */
+
+.last-main{
+    background-color: rgb(59, 84, 109);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.row-last .col-7, .row.row-last .col-5, .row-last .col-9{
+    background-color: goldenrod;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
 
 
 
