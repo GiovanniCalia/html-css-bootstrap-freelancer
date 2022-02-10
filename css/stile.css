@@ -12,9 +12,9 @@
     justify-content: space-between;
 }
 
-.head1 .col-6, .head1 .col-1{
+/*.head1 .col-6, .head1 .col-1{
     padding: 1rem;
-}
+}*/
 
 .head1 .col-6{
     text-transform: uppercase;
@@ -47,11 +47,11 @@
 }
 .sctn-main2 .col-8{
     background-color: blue;
-    padding: 1rem;
+   /* padding: 1rem;*/
 }
 
 .sctn-main3 .col-1, .sctn-main3 .col-2{
-    padding: 1rem;
+   /* padding: 1rem;*/
 }
 
 .sctn-main3 .col-1{
@@ -67,7 +67,7 @@
 }
 .sctn-main4 .col-3{
     background-color: blueviolet;
-    padding: 1rem;
+   /* padding: 1rem;*/
 }
 
 .scn-sec .col-2{
@@ -192,7 +192,17 @@
     padding: 2rem;
 }
 
+/* FOOTER SECTION */
 
+.box-footer{
+    background-color: rgb(44, 63, 79);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.row-footer .col-5{
+    background-color: red;
+}
 
 
 
