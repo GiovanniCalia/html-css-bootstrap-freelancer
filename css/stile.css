@@ -1,24 +1,32 @@
 /* HEADER SECTION */
 
+/* MISURE INFERIORI A 575PX */
+
 [class*="col-"]{
-    padding: 1rem;
+   /* padding: 1rem;*/
 }
 
 .head1{
     background-color: rgb(44, 63, 79);
+
 }
 
 .header1{
     justify-content: space-between;
 }
 
-/*.head1 .col-6, .head1 .col-1{
+.header1 .col{
     padding: 1rem;
-}*/
+    display: none;
+}
+.head1 .col-6, .head1 .col-1{
+    padding: 1rem;
+}
 
-.head1 .col-6{
+.head1 .col-9{
     text-transform: uppercase;
     color: white;
+    padding: 1rem;
 }
 
 .rettangolo_header{
@@ -38,20 +46,21 @@
 
 .first-sctn-main .col-6{
     background-color: green;
-    padding: 8rem;
+    padding: 5rem;
 }
 
 .sctn-main2{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 .sctn-main2 .col-8{
     background-color: blue;
-   /* padding: 1rem;*/
+    padding: 1rem;
 }
 
 .sctn-main3 .col-1, .sctn-main3 .col-2{
-   /* padding: 1rem;*/
+    padding: 1rem;
 }
 
 .sctn-main3 .col-1{
@@ -67,22 +76,25 @@
 }
 .sctn-main4 .col-3{
     background-color: blueviolet;
-   /* padding: 1rem;*/
+    padding: 1rem;
 }
 
 .scn-sec .col-2{
     background-color: aqua;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    padding: 1rem;
 }
 
 .scn-sec2 .col-1{
     background-color: azure;
+    padding: 1rem;
 }
 
 .scn-sec2 .col-2{
     background-color: brown;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 /* TERZA SEZIONE MAIN */
@@ -93,7 +105,6 @@
     width: 95%;
     border-radius: 10px;
     margin-bottom: 2rem;
-    
 }
 
 .thi-sec .col-6{
@@ -113,6 +124,7 @@
 
 .row-lorem .col-2, .row-lorem4 .col-3{
     background-color: gold;
+    padding: 1rem;
 }
 
 .row-lorem2{
@@ -122,10 +134,12 @@
 
 .row-lorem2 .col-1:nth-child(odd){
     background-color: black;
+    padding: 1rem;
 }
 
 .row-lorem2 .col-1:nth-child(even){
     background-color: gold;
+    padding: 1rem;
 }
 
 .row-lorem3 .col-7{
@@ -144,6 +158,7 @@
 
 .row-contact .col-4{
     background-color: green;
+    padding: 1rem;
 }
 
 .row-contact2{
@@ -153,10 +168,12 @@
 
 .row-contact2 .col-1:nth-child(odd){
     background-color: black;
+    padding: 1rem;
 }
 
 .row-contact2 .col-1:nth-child(even){
     background-color: gold;
+    padding: 1rem;
 }
 
 .row-contact3{
@@ -171,10 +188,12 @@
 .row-contact4 .col-6{
     background-color: blueviolet;
     margin-bottom: 0.5rem;
+    padding: 1rem;
 }
 
 .row-contact5 .col-2{
     background-color: bisque;
+    padding: 1rem;
 }
 
 /* LAST SECTION */
@@ -202,14 +221,26 @@
 
 .row-footer .col-5{
     background-color: red;
+    padding: 1rem;
 }
 
 
 
-/*@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 991px){
 
-    .row-lorem3 .col{
-        display: none;
-    }   
+    .head1, .first-sctn-main{
+        max-width: 991px;
+    }
+
+    .head1 .col{
+        display: block;
+    }
+
+    .sct-thi-main{
+        max-width: 400px;
+    }
+
+
+  
    
-}*/
+}
