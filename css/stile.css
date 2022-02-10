@@ -100,3 +100,51 @@
     background-color: green;
 }
 
+/* LOREM PART MAIN */
+
+.lorem-part{
+    background-color: rgb(24, 188, 155);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.row-lorem .col-2, .row-lorem4 .col-3{
+    background-color: gold;
+}
+
+.row-lorem2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-lorem2 .col-1:nth-child(odd){
+    background-color: black;
+}
+
+.row-lorem2 .col-1:nth-child(even){
+    background-color: gold;
+}
+
+.row-lorem3 .col-7{
+  padding: 1rem;
+  color: white;
+  background-color: blue;
+}
+
+.row-lorem4 .col-3{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+/*@media screen and (min-width: 576px) and (max-width: 768px){
+
+    .row-lorem3 .col{
+        display: none;
+    }   
+   
+}*/
