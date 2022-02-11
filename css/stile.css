@@ -2,8 +2,25 @@
 
 /* MISURE INFERIORI A 575PX */
 
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.py-6{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+header{
+    background-color: rgb(44, 63, 79);
+}
 
-.head1{
+.color-txt-hd{
+    color: white;
+}
+
+
+
+/*.head1{
     background-color: rgb(44, 63, 79);
 }
 
@@ -24,7 +41,7 @@
     text-transform: uppercase;
     color: white;
     padding: 1rem;
-}
+}*/
 
 .rettangolo_header{
     width: 25px;
