@@ -4,7 +4,7 @@
 
 html{
     font-family: 'Roboto', sans-serif;
-    
+
 }
 .py-6{
     padding-top: 4rem;
@@ -14,39 +14,22 @@ header{
     background-color: rgb(44, 63, 79);
 }
 
+.navbar-toggler:hover{
+    background-color: white;
+}
+
 .color-txt-hd{
     color: white;
 }
 
-
-
-/*.head1{
-    background-color: rgb(44, 63, 79);
-}
-
-.header1{
-    justify-content: space-between;
-}
-
-.header1 .col{
-    padding: 1rem;
-    display: none;
-}
-
-.head1 .col-6, .head1 .col-1{
-    padding: 1rem;
-}
-
-.head1 .col-9{
-    text-transform: uppercase;
+.list-inline-item a{
     color: white;
-    padding: 1rem;
-}*/
+    text-decoration: none;
+    padding: 0.5rem;
+}
 
-.rettangolo_header{
-    width: 25px;
-    height: 20px;
-    border: 1px solid white;
+.list-inline-item a:hover{
+    color: lightgreen;
 }
 
 /* MAIN SECTION */
