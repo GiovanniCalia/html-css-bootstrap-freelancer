@@ -1,15 +1,20 @@
-/* HEADER SECTION */
+/* STARTING FROM SIZE SMALLER THAN 575PX */
 
-/* A PARTIRE DA MISURE INFERIORI A 575PX */
+/* HEADER ZONE */
 
 html{
     font-family: 'Roboto', sans-serif;
-
 }
+
 .py-6{
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+header h3{
+    cursor: pointer;
+}
+
 header, footer{
     background-color: rgb(44, 63, 79);
 }
@@ -32,9 +37,7 @@ header, footer{
     color: lightgreen;
 }
 
-
-  /* MAIN SECTION */
-
+/* MAIN ZONE */
 
 .start_bootstrap{
     background-color: rgb(24, 188, 155);
@@ -54,19 +57,36 @@ header, footer{
     font-size: 2rem;
 }
 
-/* SECOND SECTION */
+/* SECOND SECTION MAIN */
 
 .card{
     background-color: lightskyblue;
     border-radius: 10px;
     overflow: hidden;
+    position: relative; 
+}
+
+.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    background-color: rgba(24, 188, 155, 0.6);
+    padding: 250px;
+    display: none;
+}
+
+.card:hover .fa-plus{
+    display: block;
 }
 
 .bar-black{
     background-color: black;
 }
 
-/* CONTAINER CONTACT SECTION  */
+/* CONTAINER CONTACT SECTION MAIN */
 
 .contact-section{
     background-color: rgb(24, 188, 155);
@@ -80,15 +100,8 @@ header, footer{
     width: 10%;
 }
 
-.form-control{
-    border: none;
-    border-bottom: 1px solid black;
-}
+/* LAST PART MAIN */
  
-
-/* LAST MAIN PART */
- 
-
 .socials{
     background-color: rgb(59, 84, 109);
 }
@@ -103,13 +116,33 @@ header, footer{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-timing-function: linear;
 }
 
+.fa-facebook-f:hover{
+    background-color: blue;
+}
 
-/* FOOTER SECTION */
+.fa-google-plus-g:hover{
+    background-color: red;
+}
 
+.fa-twitter:hover{
+    background-color: lightskyblue;
+}
+
+.fa-linkedin-in:hover{
+    background-color: lightblue;
+}
 
 .color-lightgreen{
     color: rgb(24, 188, 155);
+    text-decoration: none;
 }
 
+.color-lightgreen:hover{
+    color: rgb(24, 188, 155);
+    text-decoration: underline;
+}
