@@ -1,6 +1,6 @@
 /* HEADER SECTION */
 
-/* MISURE INFERIORI A 575PX */
+/* A PARTIRE DA MISURE INFERIORI A 575PX */
 
 html{
     font-family: 'Roboto', sans-serif;
@@ -10,7 +10,7 @@ html{
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
-header{
+header, footer{
     background-color: rgb(44, 63, 79);
 }
 
@@ -57,15 +57,16 @@ header{
 /* SECOND SECTION */
 
 .card{
-    /*height: 300px;*/
     background-color: lightskyblue;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .bar-black{
     background-color: black;
 }
 
-/* TERZA SEZIONE MAIN */
+/* CONTAINER CONTACT SECTION  */
 
 .contact-section{
     background-color: rgb(24, 188, 155);
@@ -83,228 +84,32 @@ header{
     border: none;
     border-bottom: 1px solid black;
 }
+ 
 
-.message{
+/* LAST MAIN PART */
+ 
+
+.socials{
+    background-color: rgb(59, 84, 109);
+}
+
+.back-color-lightgreen{
+    background-color: rgb(24, 188, 155);
     border: none;
 }
 
-
-
-
-
-
-.sct-thi-main{
-    background-color: rgb(187, 75, 99);
-    padding: 2rem 0;
-    width: 95%;
-    border-radius: 10px;
-    margin-bottom: 2rem;
+.fa-facebook-f, .fa-google-plus-g, .fa-twitter, .fa-linkedin-in{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
-.lorem-part{
-    background-color: rgb(24, 188, 155);
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.row-lorem .col-2, .row-lorem4 .col-3{
-    background-color: gold;
-    padding: 1rem;
-}
-
-.row-lorem2{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.row-lorem2 .col-1:nth-child(odd){
-    background-color: black;
-    padding: 1rem;
-}
-
-.row-lorem2 .col-1:nth-child(even){
-    background-color: gold;
-    padding: 1rem;
-}
-
-.row-lorem3 .col-7, .row-lorem3-2 .col-7{
-  padding: 1rem;
-  color: white;
-  background-color: blue;
-}
-
-.row-lorem4 .col-3{
-    margin-top: 1rem;
-}
-
-/* CONTACT SECTION */
-
-.row-contact .col-4{
-    background-color: green;
-    padding: 1rem;
-}
-
-.row-contact2{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.row-contact2 .col-1:nth-child(odd){
-    background-color: black;
-    padding: 1rem;
-}
-
-.row-contact2 .col-1:nth-child(even){
-    background-color: gold;
-    padding: 1rem;
-}
-
-.row-contact3{
-    margin-bottom: 0.5rem;
-}
-
-.row-contact3 .col-6{
-    background-color: blue;
-    padding: 1.5rem;
-}
-
-.row-contact4 .col-6{
-    background-color: blueviolet;
-    margin-bottom: 0.5rem;
-    padding: 1rem;
-}
-
-.row-contact5 .col-2{
-    background-color: bisque;
-    padding: 1rem;
-}
-
-/* LAST SECTION */
-
-.last-main{
-    background-color: rgb(59, 84, 109);
-    margin-top: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.row-last .col-9, .row.row-last .col-7, .row-last .col-10{
-    background-color: goldenrod;
-    margin-bottom: 1rem;
-    padding: 2rem;
-}
 
 /* FOOTER SECTION */
 
-.box-footer{
-    background-color: rgb(44, 63, 79);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
-.row-footer .col-5{
-    background-color: red;
-    padding: 1rem;
-}
-
-/* MEDIA QUERY ZONE*/
-
-/* VERSIONE TABLET */
-
-@media screen and (min-width: 576px) and (max-width: 991px){
-
-    .head1, .first-sctn-main, .lorem-part, .last-main, .box-footer{
-        max-width: 991px;
-    }
-
-    .head1 .col{
-        display: block;
-    }
-
-    .con-main{
-        width: 80%;
-        margin: auto;
-    }
-
-    .sct-thi-main{
-        width: 40%;
-    }
-
-    .thi-sec .col-6{
-        padding: 5rem;
-    }
-
-    .flex-container{
-        display: flex;
-        width: 80%;
-        margin: auto;
-    }
-
-    .row-lorem3 .col:last-child, .row-lorem3-2 .col:first-child{
-        display: none;
-    }
-
-    .flex-lorem, .last-main1{
-        display: flex;
-    }
-
-    .row-last{
-        flex-grow: 1;
-    }
-}
-
-/* VERSIONE DESKTOP */
-
-@media  screen and (min-width: 991px) {
-
-    .head1, .first-sctn-main, .lorem-part, .last-main, .box-footer{
-        max-width: 1200px;
-    }
-
-    .head1 .col{
-        display: block;
-    }
-
-    .con-main, .scn-sec-main{
-        width: 60%;
-        margin: auto;
-    }
-
-    .sct-thi-main{
-        width: 30%;
-    }
-
-    .thi-sec .col-6{
-        padding: 4rem;
-    }
-
-    .flex-container{
-        display: flex;
-        width: 80%;
-        margin: auto;
-    }
-
-    .disp-none{
-        display: block;
-    }
-
-    .last{
-        display: none;
-    }
-
-    .row-lorem3 .col:last-child, .row-lorem3-2 .col:first-child{
-        display: none;
-    }
-
-    .flex-lorem, .last-main1{
-        display: flex;
-    }
-
-    .row-last{
-        flex-grow: 1;
-    }
-
+.color-lightgreen{
+    color: rgb(24, 188, 155);
 }
 
