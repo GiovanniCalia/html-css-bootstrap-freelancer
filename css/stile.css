@@ -60,7 +60,6 @@ header, footer{
 /* SECOND SECTION MAIN */
 
 .card{
-    background-color: lightskyblue;
     border-radius: 10px;
     overflow: hidden;
     position: relative; 
